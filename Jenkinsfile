@@ -1,10 +1,9 @@
 pipeline {
 agent any
 
-```
 tools {
     jdk 'java-11'
-    maven 'Maven'   // Make sure this matches exactly in Jenkins config
+    maven 'Maven'
 }
 
 stages {
@@ -38,6 +37,5 @@ stages {
         }
     }
 }
-```
 
 }
